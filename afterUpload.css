@@ -1,0 +1,124 @@
+@charset "utf-8";
+
+body {
+	background: #f9f9f9 url("//bits.wikimedia.org/static-1.22wmf15/skins/monobook/headbg.jpg") no-repeat fixed 0px 0px;
+	font-size: 90%;
+	line-height: 1.5em;
+}
+
+h2 {
+	font-weight: normal;
+	margin: 0;
+	margin-bottom: 0.17em;
+	padding-top: .5em;
+	padding-bottom: .17em;
+	border-bottom: 1px solid #aaa;
+}
+
+#pages {
+	border: 1px solid #aaa;
+	background-color: #f3f3ff;
+	padding: 0px 12px 18px;
+}
+
+#tabs {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	white-space: nowrap;
+}
+
+#tabs li {
+	display: inline;
+	border: 1px solid #aaa;
+	border-bottom: none;
+	background-color: #d0d0d0;
+	margin-right: 0.3em;
+	padding: 0.3em;
+}
+
+#tabs li.active {
+	background-color: #f3f3ff;
+}
+
+.active a.tabLink:link {
+	color: #000;
+	cursor: default;
+}
+
+#pages > div {
+	display: none;
+}
+
+#pages > div.active {
+	display: block;
+}
+
+img {
+	vertical-align: middle;
+	border: none;
+}
+
+#activateJavascript {
+	background-color: #000;
+	color: #fff;
+	font-weight: bold;
+	padding: 1ex;
+}
+
+ul {
+	line-height: 1.5em;
+	list-style-type: square;
+	margin: .3em 0 0 1.5em;
+	padding: 0;
+	list-style-image: url("//bits.wikimedia.org/static-1.22wmf15/skins/monobook/bullet.gif");
+}
+
+a.external:link {
+	color: #3366bb;
+}
+
+.sans {
+	font-family: sans-serif;
+}
+
+.contribsContinue,
+.contribsEmpty {
+	color: #999;
+	font-style: italic;
+	font-size: 90%;
+}
+
+.comment {
+	color: #999;
+	font-size: 90%;
+}
+
+.contributions {
+	font-size: 90%;
+}
+
+.timestamp {
+	border-bottom: 1px dotted #000;
+}
+
+#footer {
+	background-color: white;
+	border-top: 1px solid #fabd23;
+	border-bottom: 1px solid #fabd23;
+	margin: 0.6em 0 1em 0;
+	padding: 0.8em 0;
+	text-align: center;
+	font-size: 90%;
+}
+
+#footer ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+#footer li {
+	display: inline;
+	margin: 0 1.3em;
+}
