@@ -1,7 +1,7 @@
 @charset "utf-8";
 
 body {
-	background: #f9f9f9 url("//bits.wikimedia.org/static-1.22wmf15/skins/monobook/headbg.jpg") no-repeat fixed 0px 0px;
+	background: #f9f9f9 url("https://de.wikipedia.org/w/skins/MonoBook/resources/images/headbg.jpg") no-repeat fixed 0px 0px;
 	font-size: 90%;
 	line-height: 1.5em;
 }
@@ -71,7 +71,7 @@ ul {
 	list-style-type: square;
 	margin: .3em 0 0 1.5em;
 	padding: 0;
-	list-style-image: url("//bits.wikimedia.org/static-1.22wmf15/skins/monobook/bullet.gif");
+	list-style-image: url("https://de.wikipedia.org/w/skins/MonoBook/resources/images/bullet.gif");
 }
 
 a.external:link {

@@ -1,6 +1,6 @@
 /*
  *  afterUpload ­– lets you inspect edits a user did after uploading an image
- *  Copyright (C) 2009 René Kijewski  rene <dot> <surname> <at> fu–berlin <dot> de
+ *  Copyright (C) 2009-2018 René Kijewski  rene <dot> <surname> <at> fu–berlin <dot> de
  *  
  *  This program is free software: you can redistribute it and/or modify
  *  it under the terms of the GNU Affero General Public License as
@@ -13,7 +13,7 @@
  *  GNU Affero General Public License for more details.
  *  
  *  You should have received a copy of the GNU Affero General Public License
- *  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ *  along with this program.  If not, see <https://www.gnu.org/licenses/>.
 */
 
 document.i18n = {};
@@ -34,9 +34,9 @@ document.i18n.de = {
 	"shared": "Diese Datei liegt auf WikiMedia Commons.",
 	"fileDoesNotExists": "Die Datei existiert nicht …",
 	"loadingText": "läd …",
-	"loadingGifHref": "http://de.wikipedia.org/wiki/Datei:Loader3.gif",
+	"loadingGifHref": "https://de.wikipedia.org/wiki/Datei:Loader3.gif",
 	"loadingGifName": "Datei:Loader3.gif",
-	"loadingGifFile": "http://upload.wikimedia.org/wikipedia/commons/3/32/Loader3.gif",
+	"loadingGifFile": "https://upload.wikimedia.org/wikipedia/commons/3/32/Loader3.gif",
 	"loadingGifSmallHeight": "18px",
 	"loadingGifSmallWidth": "18px",
 	"expand": "aufklappen",
@@ -93,9 +93,9 @@ document.i18n.en = {
 	"shared": "This file was uploaded to WikiMedia Commons.",
 	"loadingText": "loading …",
 	"fileDoesNotExists": "The file does not exist …",
-	"loadingGifHref": "http://en.wikipedia.org/wiki/File:Loader3.gif",
+	"loadingGifHref": "https://en.wikipedia.org/wiki/File:Loader3.gif",
 	"loadingGifName": "File:Loader3.gif",
-	"loadingGifFile": "http://upload.wikimedia.org/wikipedia/commons/3/32/Loader3.gif",
+	"loadingGifFile": "https://upload.wikimedia.org/wikipedia/commons/3/32/Loader3.gif",
 	"loadingGifSmallHeight": "16px",
 	"loadingGifSmallWidth": "16px",
 	"expand": "expand",

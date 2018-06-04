@@ -1,6 +1,6 @@
 /*
  *  afterUpload ­– lets you inspect edits a user did after uploading an image
- *  Copyright (C) 2009-2013 René Kijewski  rene <dot> <surname> <at> fu–berlin <dot> de
+ *  Copyright (C) 2009-2018 René Kijewski  rene <dot> <surname> <at> fu–berlin <dot> de
  *  
  *  This program is free software: you can redistribute it and/or modify
  *  it under the terms of the GNU Affero General Public License as
@@ -13,7 +13,7 @@
  *  GNU Affero General Public License for more details.
  *  
  *  You should have received a copy of the GNU Affero General Public License
- *  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ *  along with this program.  If not, see <https://www.gnu.org/licenses/>.
 */
 
 var wikilist = [
@@ -622,7 +622,6 @@ function makeUserInfo(user, date, server, script) {
 	userInfo.setAttribute("class", "contributions");
 	
 	user = encodeURIComponent(user);
-	
 	var contribUrlPre = server + script + "?title=Special:";
 	var contribUrlPost = "Contributions&offset=" + date.getPlainTimestamp() +
 		"&target=" + user + "&dir=prev&limit=" + document.i18n.selected.contibutionsLimit;
